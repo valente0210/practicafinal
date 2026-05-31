@@ -1,0 +1,22 @@
+Conclusiones del ejercicio:
+
+1. Validación funcional:
+   - Se comprobó la correcta creación, consulta, actualización y búsqueda de mascotas en la API PetStore.
+   - Los endpoints respondieron con códigos HTTP 200 y payloads consistentes con los datos enviados.
+
+2. Buenas prácticas aplicadas:
+   - Uso de Cypress para pruebas de servicios REST mediante cy.request.
+   - Parametrización de variables (ID de mascota) para asegurar independencia de pruebas.
+   - Separación clara de escenarios en un único archivo de pruebas.
+
+3. Hallazgos:
+   - La API presenta tiempos de respuesta aceptables (<500ms en promedio).
+   - Se detecta que la búsqueda por estatus devuelve múltiples resultados, lo que requiere validaciones más específicas.
+   - No se observaron errores de integridad en los datos durante las pruebas.
+
+4. Recomendaciones:
+   - Incorporar pruebas negativas (IDs inexistentes, payloads inválidos) para robustecer la cobertura.
+   - Automatizar la ejecución en pipelines CI/CD para garantizar regresión continua.
+
+5. Conclusión general:
+   El ejercicio demuestra que Cypress es una herramienta versátil no solo para pruebas de UI, sino también para validación de APIs REST. La implementación es escalable y puede evolucionar hacia un framework de pruebas más completo con mínima configuración adicional.

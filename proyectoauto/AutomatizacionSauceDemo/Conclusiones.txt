@@ -1,0 +1,17 @@
+HALLAZGOS
+
+* Se ejecutó exitosamente el flujo de compra de extremo a extremo en la aplicación SauceDemo.
+* La autenticación con el usuario estándar (standard_user) funcionó de acuerdo con lo esperado.
+* Se validó correctamente la adición de dos productos al carrito de compras.
+* El sistema reflejó adecuadamente los productos seleccionados durante la validación del carrito.
+* El proceso de checkout permitió el ingreso de la información requerida y la navegación entre las diferentes etapas del flujo.
+* La compra fue finalizada exitosamente mostrando el mensaje de confirmación esperado: "Thank you for your order!".
+* No se identificaron defectos funcionales durante la ejecución del escenario automatizado.
+* Se generó evidencia de ejecución mediante captura de pantalla al finalizar el proceso.
+
+CONCLUSIONES
+
+* El flujo crítico de negocio asociado a la compra de productos se comporta conforme a los criterios esperados para el escenario validado.
+* La automatización implementada permite validar de manera rápida y repetible el proceso de compra, reduciendo el esfuerzo manual en futuras ejecuciones.
+* La solución desarrollada constituye una base sólida para ampliar la cobertura de pruebas mediante escenarios adicionales, tales como validaciones negativas de autenticación, manejo de errores en checkout, eliminación de productos del carrito y validaciones de precios.
+
